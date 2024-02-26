@@ -1,5 +1,5 @@
 //PRIMEIRO IMPORTA-SE O THREE.JS POR MEIO DO CÓDIGO LOGO ABAIXO.
-import * as THREE from 'three';
+import * as THREE from 'https://unpkg.com/three/build/three.module.js';
 
 //CRIA-SE UM OBJETO DO TIPO CENA POR MAIO DO CÓDIGO LOGO ABAIXO.
 //A CENA É ONDE TODOS OS OJETOS 3D SERÃO INJETADOS.
@@ -29,17 +29,36 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 document.body.appendChild(renderer.domElement)
 
+//A LINHA ABIXO CRIA UMA FIGURA GEOMÉTRICA COM SUAS PROPORÇÕES NOS EIXOS x y E z.
+const geometry = new THREE.BoxGeometry(1, 1, 3);
 
-const geometry = new THREE.BoxGeometry(1, 1, 1);
+//O METERIAL PASSA ALGUMAS CONFIGURAÇÕES DE ESTILO PARA O CUBO, NESSE CASO ELE ESTÁ PASSANDO A COR VERDE
 const material = new THREE.MeshBasicMaterial({color: 0x00ff00})
+
+//A LINHA ABAIXO CRIA UM OBJETO QUE UNE A FIGURA GEOMÉTRICA CRIADA ANTERIORMENTE COM AS CONFIGURAÇÕES DE ESTILO CRIADAS.
 const cube = new THREE.Mesh(geometry, material);
+
+//A LINHA ABAIXO ADICIONA O OBJETO À CENA 
 scene.add(cube);
 
+//A LINHA ABAIXO ADICIONA 5 PIXELS AO EIXO Z DA CÂMERA, POIS CASO ISSO NÃO FOSSE FEITO, TANDO A CÂMERA QUANTO O CUBO SERIAM RENDERIZADOS NAS MESMAS CORDENADAS.
 camera.position.z=5;
 
-function animate(){
-    requestAnimationFrame(animate);
-    renderer.render(scene, camera)
+
+
+function animate() {
+    //O ANIMATION FRAME MATEM A FUNÇÃO EM UM LOOP DESSA FORMA A ANIMAÇÃO É CONTÍNUA
+    requestAnimationFrame( animate );
+
+    //O ROTATION.X ESTABELECE UMA ROTAÇÃO EM GRAUS NO EIXO X
+    cube.rotation.x += 0.01;
+
+    //O ROTATION.X ESTABELECE UMA ROTAÇÃO EM GRAUS NO EIXO X
+    cube.rotation.y += 0.01;
+
+    //O RENDERER.RENDER RENDERIZA OS OBJETOS NA TELA, UTILIZANDO A CENA E A CÂMERA COMO PARÂMETROS.
+    renderer.render( scene, camera );
 }
+
 
 animate()
