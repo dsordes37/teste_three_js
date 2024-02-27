@@ -1,0 +1,11 @@
+Model Information:
+* title:	Grow Media Basket V1 - 3Dponics Drip Hydroponics
+* source:	https://sketchfab.com/3d-models/grow-media-basket-v1-3dponics-drip-hydroponics-575100692ce14f00b11b000e0a5a2d2e
+* author:	3Dponics (https://sketchfab.com/3DPrintler)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Grow Media Basket V1 - 3Dponics Drip Hydroponics" (https://sketchfab.com/3d-models/grow-media-basket-v1-3dponics-drip-hydroponics-575100692ce14f00b11b000e0a5a2d2e) by 3Dponics (https://sketchfab.com/3DPrintler) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

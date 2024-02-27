@@ -1,0 +1,11 @@
+Model Information:
+* title:	Retro Soda Vending Machine
+* source:	https://sketchfab.com/3d-models/retro-soda-vending-machine-8c7dca8982604874b8e39281762ec924
+* author:	Chen CheHsuan (https://sketchfab.com/jn930194)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Retro Soda Vending Machine" (https://sketchfab.com/3d-models/retro-soda-vending-machine-8c7dca8982604874b8e39281762ec924) by Chen CheHsuan (https://sketchfab.com/jn930194) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
